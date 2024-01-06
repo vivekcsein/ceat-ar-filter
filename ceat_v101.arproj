@@ -3,7 +3,7 @@
   "name": "Effect",
   "identifier": "document:4-fa1a7106-297a-4faa-b5d0-ae536a4afad5",
   "id": "1221fa1a7106297a4faab5d0ae536a4afad5",
-  "revision": "3fa1a7106297a4faab5d0ae536a4afad5",
+  "revision": "181683fd9a722032c48b284886f2102be364f",
   "version": {
     "dev": 0,
     "patch": 0,
@@ -47,6 +47,7 @@
     {
       "modelName": "textures",
       "identifier": "textures:10-fa1a7106-297a-4faa-b5d0-ae536a4afad5",
+      "defaultEnvironmentTexture": "environment_texture_model:151044-fa1a7106-297a-4faa-b5d0-ae536a4afad5",
       "children": [
         {
           "sectionFileLocation": "textures/VIEW IN AR BUTTON.texture"
@@ -92,6 +93,26 @@
         },
         {
           "sectionFileLocation": "textures/tyre_with_hotspot 2.texture"
+        },
+        {
+          "sectionFileLocation": "objects/ceat_glb_2/Texture 0.texture"
+        },
+        {
+          "sectionFileLocation": "textures/DiffuseEnvironment.texture"
+        },
+        {
+          "sectionFileLocation": "textures/PreviewEnvironment.texture"
+        },
+        {
+          "sectionFileLocation": "textures/SpecularEnvironment.texture"
+        },
+        {
+          "modelName": "environment_texture_model",
+          "name": "Default environment texture",
+          "identifier": "environment_texture_model:151044-fa1a7106-297a-4faa-b5d0-ae536a4afad5",
+          "diffuseEnvironmentTextureIdentifier": "textures/DiffuseEnvironment.texture",
+          "previewEnvironmentTextureIdentifier": "textures/PreviewEnvironment.texture",
+          "specularEnvironmentTextureIdentifier": "textures/SpecularEnvironment.texture"
         }
       ]
     },
@@ -126,7 +147,7 @@
           "modelName": "script",
           "name": "ceatTyre.js",
           "identifier": "script:11897-fa1a7106-297a-4faa-b5d0-ae536a4afad5",
-          "assetDataHash": "74fd4ac9c34a9beadac6ac8971e94561",
+          "assetDataHash": "be23a62c4caa47d50545582d406f6529",
           "assetLocator": "scripts/ceatTyre.js",
           "isExternalAsset": true
         }
@@ -138,7 +159,60 @@
     },
     {
       "modelName": "exportConfig",
-      "identifier": "exportConfig:50-fa1a7106-297a-4faa-b5d0-ae536a4afad5"
+      "identifier": "exportConfig:50-fa1a7106-297a-4faa-b5d0-ae536a4afad5",
+      "children": [
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:151020-fa1a7106-297a-4faa-b5d0-ae536a4afad5",
+          "accuracy": "best"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:151022-fa1a7106-297a-4faa-b5d0-ae536a4afad5",
+          "accuracy": "best",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:151024-fa1a7106-297a-4faa-b5d0-ae536a4afad5",
+          "accuracy": "best",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:151029-fa1a7106-297a-4faa-b5d0-ae536a4afad5",
+          "accuracy": "best"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:151031-fa1a7106-297a-4faa-b5d0-ae536a4afad5",
+          "accuracy": "best",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:151033-fa1a7106-297a-4faa-b5d0-ae536a4afad5",
+          "accuracy": "best",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:151038-fa1a7106-297a-4faa-b5d0-ae536a4afad5",
+          "accuracy": "best"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:151040-fa1a7106-297a-4faa-b5d0-ae536a4afad5",
+          "accuracy": "best",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:151042-fa1a7106-297a-4faa-b5d0-ae536a4afad5",
+          "accuracy": "best",
+          "targetFormat": 1
+        }
+      ]
     },
     {
       "modelName": "manifest",
@@ -180,7 +254,7 @@
       "effectUses4KTextures": false,
       "effectUsesAheadOfTimeShaders": false,
       "effectUsesAnimationPlaybackController": false,
-      "effectUsesAnimationScriptingModule": false,
+      "effectUsesAnimationScriptingModule": true,
       "effectUsesAppLauncher": false,
       "effectUsesAssistant": false,
       "effectUsesAudio": false,
@@ -192,7 +266,7 @@
       "effectUsesAugmentGrouping": false,
       "effectUsesAugmentSizeControl": false,
       "effectUsesAutomaticAlphaSort": false,
-      "effectUsesAutomaticInstructions": true,
+      "effectUsesAutomaticInstructions": false,
       "effectUsesBlockModulesConfigExtras": false,
       "effectUsesBlocks": false,
       "effectUsesBlocksDownloadable": false,
@@ -202,7 +276,7 @@
       "effectUsesBoundingBoxScripting": false,
       "effectUsesBoundingBoxUtilities": false,
       "effectUsesCameraControl": false,
-      "effectUsesCameraInfoScriptingModule": false,
+      "effectUsesCameraInfoScriptingModule": true,
       "effectUsesCameraShare": false,
       "effectUsesComponentEvaluation": false,
       "effectUsesComposedLocally": false,
@@ -216,7 +290,7 @@
       "effectUsesDSP": false,
       "effectUsesDate": false,
       "effectUsesDebugPatch": false,
-      "effectUsesDeltaTime": false,
+      "effectUsesDeltaTime": true,
       "effectUsesDepth": false,
       "effectUsesDepthData": false,
       "effectUsesDepthShaderRead": false,
@@ -236,7 +310,7 @@
       "effectUsesDspReverb": false,
       "effectUsesDspVocoder": false,
       "effectUsesDynamicCapabilities": false,
-      "effectUsesDynamicInstructions": false,
+      "effectUsesDynamicInstructions": true,
       "effectUsesDynamicScriptProperties": false,
       "effectUsesDynamicText": false,
       "effectUsesEmbeddedVideo": false,
@@ -285,8 +359,8 @@
       "effectUsesIdTracker": false,
       "effectUsesImageAntiAliasing": false,
       "effectUsesImageAssets": false,
-      "effectUsesImageBasedLighting": false,
-      "effectUsesInstruction": false,
+      "effectUsesImageBasedLighting": true,
+      "effectUsesInstruction": true,
       "effectUsesIntent": false,
       "effectUsesInterEffectLinking": false,
       "effectUsesInternalScriptingAPI": false,
@@ -300,7 +374,7 @@
       "effectUsesLocale": false,
       "effectUsesLocation": false,
       "effectUsesLocationAirportData": false,
-      "effectUsesMaterialsScriptingModule": false,
+      "effectUsesMaterialsScriptingModule": true,
       "effectUsesMaxParticipants": false,
       "effectUsesMicrophone": false,
       "effectUsesMicrophoneV2": false,
@@ -326,7 +400,7 @@
       "effectUsesOpticalFlow": false,
       "effectUsesOpusCodec": false,
       "effectUsesOverlayOutput": false,
-      "effectUsesPBRMaterial": false,
+      "effectUsesPBRMaterial": true,
       "effectUsesParticipant": false,
       "effectUsesParticleSystem": false,
       "effectUsesPeerOutput": false,
@@ -352,7 +426,7 @@
       "effectUsesRGBCameraTexture": false,
       "effectUsesRTRMapping": false,
       "effectUsesRandomScriptingModule": false,
-      "effectUsesReactiveScriptingModule": false,
+      "effectUsesReactiveScriptingModule": true,
       "effectUsesRealScaleEstimation": false,
       "effectUsesRealScaleEstimationWithFallback": false,
       "effectUsesRecognition": false,
@@ -390,10 +464,10 @@
       "effectUsesTextAssets": false,
       "effectUsesTextCaptions": false,
       "effectUsesTextExtrusion": false,
-      "effectUsesTexturesScriptingModule": false,
-      "effectUsesTimeScriptingModule": false,
+      "effectUsesTexturesScriptingModule": true,
+      "effectUsesTimeScriptingModule": true,
       "effectUsesToasterTracking": false,
-      "effectUsesTouchGestures": false,
+      "effectUsesTouchGestures": true,
       "effectUsesTwoDimensionalText": false,
       "effectUsesTypeScript": false,
       "effectUsesUiCore": false,
@@ -411,7 +485,7 @@
       "effectUsesWeather": false,
       "effectUsesWebPTexture": false,
       "effectUsesWebsockets": false,
-      "effectUsesWorldTracker": false,
+      "effectUsesWorldTracker": true,
       "effectUsesWorldTrackerEnvironmentLight": false,
       "effectUsesWorldTrackerJSAPI": false,
       "effectUsesWorldTrackingWorldMap": false,
@@ -439,14 +513,23 @@
       "instructionFindHandFrontCameraEnabled": true,
       "instructionFindPersonBackCameraEnabled": true,
       "instructionFindPersonFrontCameraEnabled": true,
-      "instructionTokens": null,
+      "instructionTokens": [
+        "flip_camera",
+        "choose_an_option"
+      ],
       "interEffectLinkingEffectIds": null,
       "internalScriptingAPIDelay": false,
       "internalScriptingAPIDeprecatedParticles": false,
       "internalScriptingAPIEventStream": false,
       "internalScriptingAPIExperimentalCameraInfo": false,
       "internalScriptingAPIGlobalTransform": false,
-      "manuallyEnabledItemsIds": null,
+      "manuallyEnabledItemsIds": [
+        "touchGesturesSupportsTap",
+        "effectUsesDynamicInstructions",
+        "touchGesturesSupportsPan",
+        "touchGesturesSupportsPinch",
+        "touchGesturesSupportsRotate"
+      ],
       "maxParticipantsCount": 0,
       "multiclassSegmentationMinVersion": 3004,
       "objectTrackerMaxObjects": 1,
@@ -466,11 +549,11 @@
       "supportsWildcardDomainsWhitelisting": false,
       "targetRecognitionMinVersion": 2,
       "touchGesturesSupportsLongPress": false,
-      "touchGesturesSupportsPan": false,
-      "touchGesturesSupportsPinch": false,
+      "touchGesturesSupportsPan": true,
+      "touchGesturesSupportsPinch": true,
       "touchGesturesSupportsRawTouch": false,
-      "touchGesturesSupportsRotate": false,
-      "touchGesturesSupportsTap": false,
+      "touchGesturesSupportsRotate": true,
+      "touchGesturesSupportsTap": true,
       "whitelistedDomains": null,
       "witAppId": null,
       "witClientToken": null,
@@ -554,6 +637,98 @@
         },
         {
           "sectionFileLocation": "materials/icontextMat6.material"
+        },
+        {
+          "sectionFileLocation": "materials/popupMat.material"
+        },
+        {
+          "sectionFileLocation": "objects/ceat_glb_2/Material.004.material"
+        },
+        {
+          "sectionFileLocation": "objects/ceat_glb_2/Material.003.material"
+        },
+        {
+          "sectionFileLocation": "objects/ceat_glb_2/black steel.material"
+        },
+        {
+          "sectionFileLocation": "objects/ceat_glb_2/Material.material"
+        }
+      ]
+    },
+    {
+      "modelName": "prefabs",
+      "identifier": "prefabs:14135-fa1a7106-297a-4faa-b5d0-ae536a4afad5",
+      "children": [
+        {
+          "modelName": "gltf",
+          "name": "wheel",
+          "identifier": "gltf:150974-fa1a7106-297a-4faa-b5d0-ae536a4afad5",
+          "sourceIdentifier": "master3_d_object_model:151011-fa1a7106-297a-4faa-b5d0-ae536a4afad5",
+          "assetLocator": "150975-fa1a7106-297a-4faa-b5d0-ae536a4afad5.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Circle.001",
+          "identifier": "gltf:150989-fa1a7106-297a-4faa-b5d0-ae536a4afad5",
+          "sourceIdentifier": "master3_d_object_model:151011-fa1a7106-297a-4faa-b5d0-ae536a4afad5",
+          "assetLocator": "150990-fa1a7106-297a-4faa-b5d0-ae536a4afad5.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "alloy",
+          "identifier": "gltf:151002-fa1a7106-297a-4faa-b5d0-ae536a4afad5",
+          "sourceIdentifier": "master3_d_object_model:151011-fa1a7106-297a-4faa-b5d0-ae536a4afad5",
+          "assetLocator": "151003-fa1a7106-297a-4faa-b5d0-ae536a4afad5.glb",
+          "isExternalAsset": false
+        }
+      ]
+    },
+    {
+      "modelName": "3_d_objects_model",
+      "identifier": "3_d_objects_model:14137-fa1a7106-297a-4faa-b5d0-ae536a4afad5",
+      "children": [
+        {
+          "sectionFileLocation": "objects/ceat_glb_2/ceat_glb_2.object"
+        }
+      ]
+    },
+    {
+      "modelName": "asset_collections_model",
+      "identifier": "asset_collections_model:14141-fa1a7106-297a-4faa-b5d0-ae536a4afad5",
+      "children": [
+        {
+          "modelName": "asset_collection_model",
+          "name": "ceat_glb_2",
+          "identifier": "asset_collection_model:151015-fa1a7106-297a-4faa-b5d0-ae536a4afad5",
+          "assetDataHash": "68435f1285108412d37baca94f0daa4d",
+          "assetLocator": "objects/ceat_glb_2/ceat_glb_2.glb",
+          "authoringTool": "Khronos glTF Blender I/O v4.0.44",
+          "excludeDuringExport": true,
+          "isExternalAsset": true,
+          "master3DInstanceSourceHash": "68435f1285108412d37baca94f0daa4d",
+          "textures": [
+            "objects/ceat_glb_2/Texture 0.texture"
+          ],
+          "children": [
+            {
+              "modelName": "unsupportedFeatures",
+              "name": "unsupportedFeatures0",
+              "identifier": "unsupportedFeatures:151013-fa1a7106-297a-4faa-b5d0-ae536a4afad5",
+              "namesForFeatureType": {
+                "Material": [
+                  "Material.004",
+                  "black steel",
+                  "Material.003",
+                  "Material"
+                ],
+                "Texture": [
+                  "ceat tyre texture compressed"
+                ]
+              }
+            }
+          ]
         }
       ]
     }
