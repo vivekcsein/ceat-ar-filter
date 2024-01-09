@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "360White",
+  "identifier": "texture:4555-8ceeb1ac-0bf8-49fd-a089-88ad6e866a13",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "443827372f24f83e510e42fe9e1228f2",
+  "assetLocator": "textures/360White.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 448,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 557,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "443827372f24f83e510e42fe9e1228f2",
+      "colorCount": 256,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 0.9111410443134321,
+      "pixelsHigh": 448,
+      "pixelsWide": 557
+    }
+  ]
+}

@@ -3,7 +3,7 @@
   "name": "Effect",
   "identifier": "document:4-fa1a7106-297a-4faa-b5d0-ae536a4afad5",
   "id": "1221fa1a7106297a4faab5d0ae536a4afad5",
-  "revision": "181683fd9a722032c48b284886f2102be364f",
+  "revision": "451514aa83d36d9a848fe87efde36e2feb1f1",
   "version": {
     "dev": 0,
     "patch": 0,
@@ -26,7 +26,8 @@
       "categoriesOrder": [
         "textures",
         "materials",
-        "scripts"
+        "scripts",
+        "patch_assets"
       ]
     }
   ],
@@ -36,12 +37,7 @@
   "projectFormatType": "separated_files",
   "usingPatchesV2": true,
   "visual_programming": {
-    "graphs": [
-      {
-        "modelName": "patch_graph",
-        "identifier": "patch_graph:94-fa1a7106-297a-4faa-b5d0-ae536a4afad5"
-      }
-    ]
+    "sectionFileLocation": "ceat_v101.patches"
   },
   "children": [
     {
@@ -113,6 +109,9 @@
           "diffuseEnvironmentTextureIdentifier": "textures/DiffuseEnvironment.texture",
           "previewEnvironmentTextureIdentifier": "textures/PreviewEnvironment.texture",
           "specularEnvironmentTextureIdentifier": "textures/SpecularEnvironment.texture"
+        },
+        {
+          "sectionFileLocation": "textures/360White.texture"
         }
       ]
     },
@@ -147,7 +146,7 @@
           "modelName": "script",
           "name": "ceatTyre.js",
           "identifier": "script:11897-fa1a7106-297a-4faa-b5d0-ae536a4afad5",
-          "assetDataHash": "be23a62c4caa47d50545582d406f6529",
+          "assetDataHash": "ab18d33c081c5a935c29138b1c22252d",
           "assetLocator": "scripts/ceatTyre.js",
           "isExternalAsset": true
         }
@@ -278,7 +277,7 @@
       "effectUsesCameraControl": false,
       "effectUsesCameraInfoScriptingModule": true,
       "effectUsesCameraShare": false,
-      "effectUsesComponentEvaluation": false,
+      "effectUsesComponentEvaluation": true,
       "effectUsesComposedLocally": false,
       "effectUsesComposedMaterial": false,
       "effectUsesControllers": false,
@@ -339,7 +338,7 @@
       "effectUsesFacialGestureRecognition": false,
       "effectUsesFieldOfView": false,
       "effectUsesFingerTracking": false,
-      "effectUsesFonts": false,
+      "effectUsesFonts": true,
       "effectUsesFormFactor": false,
       "effectUsesFrameBrightness": false,
       "effectUsesGalleryPicker": false,
@@ -468,13 +467,13 @@
       "effectUsesTimeScriptingModule": true,
       "effectUsesToasterTracking": false,
       "effectUsesTouchGestures": true,
-      "effectUsesTwoDimensionalText": false,
+      "effectUsesTwoDimensionalText": true,
       "effectUsesTypeScript": false,
       "effectUsesUiCore": false,
       "effectUsesUiPlanarBackend": false,
       "effectUsesUnifiedTargetTracking": false,
       "effectUsesUnitsScriptingModule": false,
-      "effectUsesVariadicMath": false,
+      "effectUsesVariadicMath": true,
       "effectUsesVertexTextureFetch": false,
       "effectUsesVisualShaders": false,
       "effectUsesVisualShadersSdf": false,
@@ -515,7 +514,8 @@
       "instructionFindPersonFrontCameraEnabled": true,
       "instructionTokens": [
         "flip_camera",
-        "choose_an_option"
+        "choose_an_option",
+        "tap_to_place_on_surface"
       ],
       "interEffectLinkingEffectIds": null,
       "internalScriptingAPIDelay": false,
@@ -652,6 +652,9 @@
         },
         {
           "sectionFileLocation": "objects/ceat_glb_2/Material.material"
+        },
+        {
+          "sectionFileLocation": "materials/inst360-2.material"
         }
       ]
     },
@@ -729,6 +732,34 @@
               }
             }
           ]
+        }
+      ]
+    },
+    {
+      "modelName": "fonts",
+      "identifier": "fonts:320-8ceeb1ac-0bf8-49fd-a089-88ad6e866a13",
+      "children": [
+        {
+          "modelName": "local_font_model",
+          "name": "Facebook Sans Regular",
+          "identifier": "local_font_model:2992-8ceeb1ac-0bf8-49fd-a089-88ad6e866a13",
+          "assetLocator": "2993-8ceeb1ac-0bf8-49fd-a089-88ad6e866a13",
+          "fontIdentity": "com.facebook.editor.fonts.facebooksans-regular",
+          "isExternalAsset": false
+        }
+      ]
+    },
+    {
+      "modelName": "patch_assets_model",
+      "identifier": "patch_assets_model:330-8ceeb1ac-0bf8-49fd-a089-88ad6e866a13",
+      "children": [
+        {
+          "modelName": "patch_data_base_model",
+          "name": "MoveRotateScale Interactions",
+          "identifier": "patch_data_base_model:61335-8ceeb1ac-0bf8-49fd-a089-88ad6e866a13",
+          "assetDataHash": "313f140123d6e6c219c9eaf90602b943",
+          "assetLocator": "patches/MoveRotateScale Interactions.arp",
+          "isExternalAsset": true
         }
       ]
     }

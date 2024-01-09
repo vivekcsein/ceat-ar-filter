@@ -27,7 +27,7 @@
   },
   "importIssues": {},
   "invertMultiply": false,
-  "isDiffuseTextureIdentifierEnabled": true,
+  "isDiffuseTextureIdentifierEnabled": false,
   "isEmissiveTextureIdentifierEnabled": false,
   "isMultiplyTextureIdentifierEnabled": false,
   "isNormalTextureIdentifierEnabled": false,

@@ -8,7 +8,6 @@
   "colorEncoding": "linear",
   "cullMode": "back",
   "diffuseFactor": "0xffffffff",
-  "diffuseTextureName": "texture:9393-fa1a7106-297a-4faa-b5d0-ae536a4afad5",
   "diffuseTextureTransform": {
     "offsetU": 0,
     "offsetV": 0,
@@ -28,7 +27,7 @@
   },
   "importIssues": {},
   "invertMultiply": false,
-  "isDiffuseTextureIdentifierEnabled": true,
+  "isDiffuseTextureIdentifierEnabled": false,
   "isEmissiveTextureIdentifierEnabled": false,
   "isMultiplyTextureIdentifierEnabled": false,
   "isNormalTextureIdentifierEnabled": false,
