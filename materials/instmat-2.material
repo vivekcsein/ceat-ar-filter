@@ -1,13 +1,14 @@
 {
   "modelName": "defaultMaterial",
-  "name": "popupMat",
-  "identifier": "defaultMaterial:112088-fa1a7106-297a-4faa-b5d0-ae536a4afad5",
+  "name": "instmat",
+  "identifier": "defaultMaterial:7485-b6e88a97-9206-4a4f-a3aa-34e029a0a68d",
   "alphaTestEnabled": false,
   "alphaTestThreshold": 0,
   "blendMode": "alpha",
   "colorEncoding": "linear",
   "cullMode": "back",
   "diffuseFactor": "0xffffffff",
+  "diffuseTextureName": "texture:2553-b6e88a97-9206-4a4f-a3aa-34e029a0a68d",
   "diffuseTextureTransform": {
     "offsetU": 0,
     "offsetV": 0,
@@ -50,7 +51,7 @@
     "scaleU": 1,
     "scaleV": 1
   },
-  "readDepth": false,
+  "readDepth": true,
   "reflectiveTextureTransform": {
     "offsetU": 0,
     "offsetV": 0,

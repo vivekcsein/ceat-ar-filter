@@ -3,7 +3,7 @@
   "name": "Effect",
   "identifier": "document:4-fa1a7106-297a-4faa-b5d0-ae536a4afad5",
   "id": "1221fa1a7106297a4faab5d0ae536a4afad5",
-  "revision": "451514aa83d36d9a848fe87efde36e2feb1f1",
+  "revision": "739228a39b073ee14525a9224a3744838dae",
   "version": {
     "dev": 0,
     "patch": 0,
@@ -46,52 +46,7 @@
       "defaultEnvironmentTexture": "environment_texture_model:151044-fa1a7106-297a-4faa-b5d0-ae536a4afad5",
       "children": [
         {
-          "sectionFileLocation": "textures/VIEW IN AR BUTTON.texture"
-        },
-        {
-          "sectionFileLocation": "textures/BG.texture"
-        },
-        {
-          "sectionFileLocation": "textures/icontext4_selected.texture"
-        },
-        {
-          "sectionFileLocation": "textures/icontext3_unselected.texture"
-        },
-        {
-          "sectionFileLocation": "textures/icontext4_unselected.texture"
-        },
-        {
-          "sectionFileLocation": "textures/icon4_popup.texture"
-        },
-        {
-          "sectionFileLocation": "textures/icon3_popup.texture"
-        },
-        {
-          "sectionFileLocation": "textures/icon4_selected.texture"
-        },
-        {
-          "sectionFileLocation": "textures/icon3_selected.texture"
-        },
-        {
-          "sectionFileLocation": "textures/icon4_unselected.texture"
-        },
-        {
-          "sectionFileLocation": "textures/icon3_unselected.texture"
-        },
-        {
-          "sectionFileLocation": "textures/icontext3_selected.texture"
-        },
-        {
-          "sectionFileLocation": "textures/tyre_with_hotspot 1-2.texture"
-        },
-        {
           "sectionFileLocation": "textures/tyre_with_hotspot 0.texture"
-        },
-        {
-          "sectionFileLocation": "textures/tyre_with_hotspot 2.texture"
-        },
-        {
-          "sectionFileLocation": "objects/ceat_glb_2/Texture 0.texture"
         },
         {
           "sectionFileLocation": "textures/DiffuseEnvironment.texture"
@@ -112,6 +67,57 @@
         },
         {
           "sectionFileLocation": "textures/360White.texture"
+        },
+        {
+          "sectionFileLocation": "objects/Ceat Tyre/Texture 0.texture"
+        },
+        {
+          "sectionFileLocation": "objects/Ceat Tyre/Texture 1.texture"
+        },
+        {
+          "sectionFileLocation": "textures/VIEW IN AR BUTTON1.texture"
+        },
+        {
+          "sectionFileLocation": "textures/CLICK ICON BUTTON.texture"
+        },
+        {
+          "sectionFileLocation": "textures/BG-min.texture"
+        },
+        {
+          "sectionFileLocation": "textures/icon6_selected-2.texture"
+        },
+        {
+          "sectionFileLocation": "textures/icon1_selected-2.texture"
+        },
+        {
+          "sectionFileLocation": "textures/icon2_selected-2.texture"
+        },
+        {
+          "sectionFileLocation": "textures/icon3_selected.texture"
+        },
+        {
+          "sectionFileLocation": "textures/icon4_selected.texture"
+        },
+        {
+          "sectionFileLocation": "textures/icon5_selected-2.texture"
+        },
+        {
+          "sectionFileLocation": "textures/icon2_popup-2.texture"
+        },
+        {
+          "sectionFileLocation": "textures/icon3_popup.texture"
+        },
+        {
+          "sectionFileLocation": "textures/icon4_popup.texture"
+        },
+        {
+          "sectionFileLocation": "textures/icon5_popup-2.texture"
+        },
+        {
+          "sectionFileLocation": "textures/icon6_popup-2.texture"
+        },
+        {
+          "sectionFileLocation": "textures/icon1_popup-2.texture"
         }
       ]
     },
@@ -146,7 +152,7 @@
           "modelName": "script",
           "name": "ceatTyre.js",
           "identifier": "script:11897-fa1a7106-297a-4faa-b5d0-ae536a4afad5",
-          "assetDataHash": "ab18d33c081c5a935c29138b1c22252d",
+          "assetDataHash": "d2a3493cc64e4ab5fe5d479b558648f3",
           "assetLocator": "scripts/ceatTyre.js",
           "isExternalAsset": true
         }
@@ -210,6 +216,30 @@
           "identifier": "textureExportConfig:151042-fa1a7106-297a-4faa-b5d0-ae536a4afad5",
           "accuracy": "best",
           "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:7385-28a39b07-3ee1-4525-a922-4a3744838dae",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:7387-28a39b07-3ee1-4525-a922-4a3744838dae",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:7389-28a39b07-3ee1-4525-a922-4a3744838dae",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:7391-28a39b07-3ee1-4525-a922-4a3744838dae",
+          "method": "fastest",
+          "targetFormat": 2
         }
       ]
     },
@@ -425,7 +455,7 @@
       "effectUsesRGBCameraTexture": false,
       "effectUsesRTRMapping": false,
       "effectUsesRandomScriptingModule": false,
-      "effectUsesReactiveScriptingModule": true,
+      "effectUsesReactiveScriptingModule": false,
       "effectUsesRealScaleEstimation": false,
       "effectUsesRealScaleEstimationWithFallback": false,
       "effectUsesRecognition": false,
@@ -621,40 +651,22 @@
           "sectionFileLocation": "materials/iconMat6.material"
         },
         {
-          "sectionFileLocation": "materials/icontextMat1.material"
-        },
-        {
-          "sectionFileLocation": "materials/icontextMat2.material"
-        },
-        {
-          "sectionFileLocation": "materials/icontextMat3.material"
-        },
-        {
-          "sectionFileLocation": "materials/icontextMat4.material"
-        },
-        {
-          "sectionFileLocation": "materials/icontextMat5.material"
-        },
-        {
-          "sectionFileLocation": "materials/icontextMat6.material"
-        },
-        {
           "sectionFileLocation": "materials/popupMat.material"
         },
         {
-          "sectionFileLocation": "objects/ceat_glb_2/Material.004.material"
-        },
-        {
-          "sectionFileLocation": "objects/ceat_glb_2/Material.003.material"
-        },
-        {
-          "sectionFileLocation": "objects/ceat_glb_2/black steel.material"
-        },
-        {
-          "sectionFileLocation": "objects/ceat_glb_2/Material.material"
-        },
-        {
           "sectionFileLocation": "materials/inst360-2.material"
+        },
+        {
+          "sectionFileLocation": "objects/Ceat Tyre/alloy.material"
+        },
+        {
+          "sectionFileLocation": "objects/Ceat Tyre/logo.material"
+        },
+        {
+          "sectionFileLocation": "objects/Ceat Tyre/tyre.material"
+        },
+        {
+          "sectionFileLocation": "materials/instmat-2.material"
         }
       ]
     },
@@ -664,26 +676,18 @@
       "children": [
         {
           "modelName": "gltf",
-          "name": "wheel",
-          "identifier": "gltf:150974-fa1a7106-297a-4faa-b5d0-ae536a4afad5",
-          "sourceIdentifier": "master3_d_object_model:151011-fa1a7106-297a-4faa-b5d0-ae536a4afad5",
-          "assetLocator": "150975-fa1a7106-297a-4faa-b5d0-ae536a4afad5.glb",
+          "name": "alloy0",
+          "identifier": "gltf:1387-28a39b07-3ee1-4525-a922-4a3744838dae",
+          "sourceIdentifier": "master3_d_object_model:1409-28a39b07-3ee1-4525-a922-4a3744838dae",
+          "assetLocator": "1388-28a39b07-3ee1-4525-a922-4a3744838dae.glb",
           "isExternalAsset": false
         },
         {
           "modelName": "gltf",
-          "name": "Circle.001",
-          "identifier": "gltf:150989-fa1a7106-297a-4faa-b5d0-ae536a4afad5",
-          "sourceIdentifier": "master3_d_object_model:151011-fa1a7106-297a-4faa-b5d0-ae536a4afad5",
-          "assetLocator": "150990-fa1a7106-297a-4faa-b5d0-ae536a4afad5.glb",
-          "isExternalAsset": false
-        },
-        {
-          "modelName": "gltf",
-          "name": "alloy",
-          "identifier": "gltf:151002-fa1a7106-297a-4faa-b5d0-ae536a4afad5",
-          "sourceIdentifier": "master3_d_object_model:151011-fa1a7106-297a-4faa-b5d0-ae536a4afad5",
-          "assetLocator": "151003-fa1a7106-297a-4faa-b5d0-ae536a4afad5.glb",
+          "name": "low poly tyre",
+          "identifier": "gltf:1403-28a39b07-3ee1-4525-a922-4a3744838dae",
+          "sourceIdentifier": "master3_d_object_model:1409-28a39b07-3ee1-4525-a922-4a3744838dae",
+          "assetLocator": "1404-28a39b07-3ee1-4525-a922-4a3744838dae.glb",
           "isExternalAsset": false
         }
       ]
@@ -693,7 +697,7 @@
       "identifier": "3_d_objects_model:14137-fa1a7106-297a-4faa-b5d0-ae536a4afad5",
       "children": [
         {
-          "sectionFileLocation": "objects/ceat_glb_2/ceat_glb_2.object"
+          "sectionFileLocation": "objects/Ceat Tyre/Ceat Tyre.object"
         }
       ]
     },
@@ -703,31 +707,32 @@
       "children": [
         {
           "modelName": "asset_collection_model",
-          "name": "ceat_glb_2",
-          "identifier": "asset_collection_model:151015-fa1a7106-297a-4faa-b5d0-ae536a4afad5",
-          "assetDataHash": "68435f1285108412d37baca94f0daa4d",
-          "assetLocator": "objects/ceat_glb_2/ceat_glb_2.glb",
+          "name": "Ceat Tyre",
+          "identifier": "asset_collection_model:1413-28a39b07-3ee1-4525-a922-4a3744838dae",
+          "assetDataHash": "be13a1db9d94218e4d841a9b3258b1c8",
+          "assetLocator": "objects/Ceat Tyre/Ceat Tyre.glb",
           "authoringTool": "Khronos glTF Blender I/O v4.0.44",
           "excludeDuringExport": true,
           "isExternalAsset": true,
-          "master3DInstanceSourceHash": "68435f1285108412d37baca94f0daa4d",
+          "master3DInstanceSourceHash": "be13a1db9d94218e4d841a9b3258b1c8",
           "textures": [
-            "objects/ceat_glb_2/Texture 0.texture"
+            "objects/Ceat Tyre/Texture 0.texture",
+            "objects/Ceat Tyre/Texture 1.texture"
           ],
           "children": [
             {
               "modelName": "unsupportedFeatures",
               "name": "unsupportedFeatures0",
-              "identifier": "unsupportedFeatures:151013-fa1a7106-297a-4faa-b5d0-ae536a4afad5",
+              "identifier": "unsupportedFeatures:1411-28a39b07-3ee1-4525-a922-4a3744838dae",
               "namesForFeatureType": {
                 "Material": [
-                  "Material.004",
-                  "black steel",
-                  "Material.003",
-                  "Material"
+                  "alloy",
+                  "logo",
+                  "tyre"
                 ],
                 "Texture": [
-                  "ceat tyre texture compressed"
+                  "logo1-min",
+                  "3-min"
                 ]
               }
             }

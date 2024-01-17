@@ -1,0 +1,150 @@
+{
+  "modelName": "master3_d_object_model",
+  "name": "Ceat Tyre",
+  "identifier": "master3_d_object_model:1409-28a39b07-3ee1-4525-a922-4a3744838dae",
+  "sourceIdentifier": "asset_collection_model:1413-28a39b07-3ee1-4525-a922-4a3744838dae",
+  "animationMask": {
+    "position": false,
+    "rotation": false,
+    "scale": false
+  },
+  "cameraVisibility": "back|front",
+  "depth": 0.6027002930641174,
+  "globalScaleFactor": 1,
+  "height": 0.6026722192764282,
+  "hidden": false,
+  "layerIdentifier": "layer0",
+  "outputVisibility": "preview|capture",
+  "physicsEnabled": false,
+  "tags": [],
+  "transform": {
+    "rx": 0,
+    "ry": 0,
+    "rz": 0,
+    "sx": 1,
+    "sy": 1,
+    "sz": 1,
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "width": 0.14828643202781677,
+  "children": [
+    {
+      "modelName": "mesh",
+      "name": "alloy",
+      "identifier": "mesh:1383-28a39b07-3ee1-4525-a922-4a3744838dae",
+      "animationMask": {
+        "position": false,
+        "rotation": false,
+        "scale": false
+      },
+      "cameraVisibility": "back|front",
+      "castShadow": false,
+      "hidden": false,
+      "layerIdentifier": "layer0",
+      "nodeName": "alloy",
+      "numberOfFaces": 17370,
+      "outputVisibility": "preview|capture",
+      "physicsEnabled": false,
+      "prefabIdentifier": "gltf:1387-28a39b07-3ee1-4525-a922-4a3744838dae",
+      "receiveShadow": false,
+      "renderPass": "main_scene",
+      "tags": [],
+      "transform": {
+        "rx": -3.1415927410125732,
+        "ry": 0,
+        "rz": 1.5707964897155762,
+        "sx": -0.022064007818698883,
+        "sy": -0.021531201899051666,
+        "sz": -0.02206401154398918,
+        "x": -0.07634256780147552,
+        "y": 0,
+        "z": 0
+      },
+      "useEmbeddedBlendshapes": false,
+      "children": [
+        {
+          "modelName": "surfaces",
+          "identifier": "surfaces:1385-28a39b07-3ee1-4525-a922-4a3744838dae",
+          "children": [
+            {
+              "modelName": "surface",
+              "name": "surface0",
+              "identifier": "surface:1390-28a39b07-3ee1-4525-a922-4a3744838dae",
+              "isMaterialIdentifierEnabled": true,
+              "materialIdentifier": "dependent_metallic_roughness_p_b_r_material_model:1371-28a39b07-3ee1-4525-a922-4a3744838dae",
+              "surfaceGroupIdentifier": "1391-28a39b07-3ee1-4525-a922-4a3744838dae"
+            },
+            {
+              "modelName": "surface",
+              "name": "surface1",
+              "identifier": "surface:1393-28a39b07-3ee1-4525-a922-4a3744838dae",
+              "isMaterialIdentifierEnabled": true,
+              "materialIdentifier": "dependent_metallic_roughness_p_b_r_material_model:1373-28a39b07-3ee1-4525-a922-4a3744838dae",
+              "surfaceGroupIdentifier": "1394-28a39b07-3ee1-4525-a922-4a3744838dae"
+            },
+            {
+              "modelName": "surface",
+              "name": "surface2",
+              "identifier": "surface:1396-28a39b07-3ee1-4525-a922-4a3744838dae",
+              "isMaterialIdentifierEnabled": true,
+              "materialIdentifier": "dependent_metallic_roughness_p_b_r_material_model:1377-28a39b07-3ee1-4525-a922-4a3744838dae",
+              "surfaceGroupIdentifier": "1397-28a39b07-3ee1-4525-a922-4a3744838dae"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modelName": "mesh",
+      "name": "low poly tyre",
+      "identifier": "mesh:1399-28a39b07-3ee1-4525-a922-4a3744838dae",
+      "animationMask": {
+        "position": false,
+        "rotation": false,
+        "scale": false
+      },
+      "cameraVisibility": "back|front",
+      "castShadow": false,
+      "hidden": false,
+      "layerIdentifier": "layer0",
+      "nodeName": "low poly tyre",
+      "numberOfFaces": 5252,
+      "outputVisibility": "preview|capture",
+      "physicsEnabled": false,
+      "prefabIdentifier": "gltf:1403-28a39b07-3ee1-4525-a922-4a3744838dae",
+      "receiveShadow": false,
+      "renderPass": "main_scene",
+      "tags": [],
+      "transform": {
+        "rx": 0,
+        "ry": 0,
+        "rz": 0,
+        "sx": 1,
+        "sy": 1,
+        "sz": 1,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "useEmbeddedBlendshapes": false,
+      "children": [
+        {
+          "modelName": "surfaces",
+          "identifier": "surfaces:1401-28a39b07-3ee1-4525-a922-4a3744838dae",
+          "children": [
+            {
+              "modelName": "surface",
+              "name": "surface0",
+              "identifier": "surface:1406-28a39b07-3ee1-4525-a922-4a3744838dae",
+              "isMaterialIdentifierEnabled": true,
+              "materialIdentifier": "dependent_metallic_roughness_p_b_r_material_model:1377-28a39b07-3ee1-4525-a922-4a3744838dae",
+              "surfaceGroupIdentifier": "1407-28a39b07-3ee1-4525-a922-4a3744838dae"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
