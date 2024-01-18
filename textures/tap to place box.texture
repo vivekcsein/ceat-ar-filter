@@ -1,10 +1,10 @@
 {
   "modelName": "texture",
-  "name": "icon6_selected",
-  "identifier": "texture:22172-b6e88a97-9206-4a4f-a3aa-34e029a0a68d",
+  "name": "tap to place box",
+  "identifier": "texture:3557-299c73fa-96f3-408d-a7cf-627613cafa12",
   "alphaPremultiplicationMode": "should_premultiply",
-  "assetDataHash": "c9af9c5240666468c2a64505a342b81c",
-  "assetLocator": "textures/icon6_selected.png",
+  "assetDataHash": "11ce64b9c93ddb4bb1ff921561e9726e",
+  "assetLocator": "textures/tap to place box.png",
   "colorEncoding": "linear",
   "compressionQuality": "high",
   "coordMapping": "none",
@@ -12,25 +12,25 @@
   "excludeFromPackage": false,
   "filter": "bilinear",
   "hasOfflineMipmaps": false,
-  "height": 256,
+  "height": 1020,
   "importIssues": {},
   "isExternalAsset": true,
   "smartTextureTargetSizeLimit": "largest",
   "targetSize": "largest",
   "uWrapMode": "clamp",
   "vWrapMode": "clamp",
-  "width": 256,
+  "width": 1020,
   "children": [
     {
       "modelName": "data_texture_metadata_model",
       "name": "data_texture_metadata_model0",
-      "assetDataHash": "c9af9c5240666468c2a64505a342b81c",
-      "colorCount": 483,
+      "assetDataHash": "11ce64b9c93ddb4bb1ff921561e9726e",
+      "colorCount": 69,
       "detectedAlphaChannel": "eight_bit_full_range",
       "detectedOriginalFormat": "png",
-      "entropyOfDistribution": 2.2781578065791384,
-      "pixelsHigh": 256,
-      "pixelsWide": 256
+      "entropyOfDistribution": 0.5035704864340221,
+      "pixelsHigh": 1020,
+      "pixelsWide": 1020
     }
   ]
 }

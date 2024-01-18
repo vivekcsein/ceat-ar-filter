@@ -1,10 +1,10 @@
 {
   "modelName": "texture",
-  "name": "CLICK ICON BUTTON",
-  "identifier": "texture:2553-b6e88a97-9206-4a4f-a3aa-34e029a0a68d",
+  "name": "icon1_selected",
+  "identifier": "texture:1525-299c73fa-96f3-408d-a7cf-627613cafa12",
   "alphaPremultiplicationMode": "should_premultiply",
-  "assetDataHash": "f1f9f4849c3771f24ea88b3dbd2ac755",
-  "assetLocator": "textures/CLICK ICON BUTTON.png",
+  "assetDataHash": "5e99d470dfcd3b320b1be7fa1615ffc5",
+  "assetLocator": "textures/icon1_selected.png",
   "colorEncoding": "linear",
   "compressionQuality": "high",
   "coordMapping": "none",
@@ -12,25 +12,25 @@
   "excludeFromPackage": false,
   "filter": "bilinear",
   "hasOfflineMipmaps": false,
-  "height": 1024,
+  "height": 256,
   "importIssues": {},
   "isExternalAsset": true,
   "smartTextureTargetSizeLimit": "largest",
   "targetSize": "largest",
   "uWrapMode": "clamp",
   "vWrapMode": "clamp",
-  "width": 1024,
+  "width": 256,
   "children": [
     {
       "modelName": "data_texture_metadata_model",
       "name": "data_texture_metadata_model0",
-      "assetDataHash": "f1f9f4849c3771f24ea88b3dbd2ac755",
-      "colorCount": 909,
+      "assetDataHash": "5e99d470dfcd3b320b1be7fa1615ffc5",
+      "colorCount": 509,
       "detectedAlphaChannel": "eight_bit_full_range",
       "detectedOriginalFormat": "png",
-      "entropyOfDistribution": 0.6709103562257027,
-      "pixelsHigh": 1024,
-      "pixelsWide": 1024
+      "entropyOfDistribution": 2.0381888262042374,
+      "pixelsHigh": 256,
+      "pixelsWide": 256
     }
   ]
 }

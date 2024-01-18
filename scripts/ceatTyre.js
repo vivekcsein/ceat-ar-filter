@@ -89,6 +89,7 @@ let RotationON = false;
 
   const planeTracker = await Scene.root.findFirst('planeTracker0');
   const instPlace = await Scene.root.findFirst("instPlace");
+  const instPlace2 = await Scene.root.findFirst("instPlace2");
 
   const funStart = () => {
 
@@ -102,6 +103,7 @@ let RotationON = false;
     viewARON = true;
     RotationON = true;
     instPlace.hidden = true;
+    instPlace2.hidden = true;
     arViewBtn.hidden = true;
 
   }
@@ -156,6 +158,10 @@ let RotationON = false;
       canvas.hidden = true;
       instPlace.hidden = false;
       backCameraON = true;
+      Time.setTimeout(() => {
+        instPlace.hidden = true;
+        instPlace2.hidden = false;
+      }, 2000)
     }
 
   })
@@ -166,6 +172,7 @@ let RotationON = false;
       planeTracker.trackPoint(gesture.location, gesture.state);
       arView.hidden = false;
       instPlace.hidden = true;
+      instPlace2.hidden = true;
       Time.setTimeout(() => {
         arViewBtn.hidden = false;
       }, 2000);

@@ -1,9 +1,9 @@
 {
   "modelName": "texture",
   "name": "icon3_selected",
-  "identifier": "texture:22184-b6e88a97-9206-4a4f-a3aa-34e029a0a68d",
+  "identifier": "texture:1533-299c73fa-96f3-408d-a7cf-627613cafa12",
   "alphaPremultiplicationMode": "should_premultiply",
-  "assetDataHash": "bb9cc4946c687b2fa79de1e8e4b80909",
+  "assetDataHash": "573c59d69909a5a1bf9b60a478721572",
   "assetLocator": "textures/icon3_selected.png",
   "colorEncoding": "linear",
   "compressionQuality": "high",
@@ -24,11 +24,11 @@
     {
       "modelName": "data_texture_metadata_model",
       "name": "data_texture_metadata_model0",
-      "assetDataHash": "bb9cc4946c687b2fa79de1e8e4b80909",
-      "colorCount": 492,
+      "assetDataHash": "573c59d69909a5a1bf9b60a478721572",
+      "colorCount": 513,
       "detectedAlphaChannel": "eight_bit_full_range",
       "detectedOriginalFormat": "png",
-      "entropyOfDistribution": 1.8148841642333147,
+      "entropyOfDistribution": 2.051332646438644,
       "pixelsHigh": 256,
       "pixelsWide": 256
     }

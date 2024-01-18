@@ -409,7 +409,7 @@
                       "tags": [],
                       "transform": {
                         "rx": 0,
-                        "ry": -0,
+                        "ry": 0,
                         "rz": 0,
                         "sx": 1,
                         "sy": 1,
@@ -522,7 +522,7 @@
                           "tags": [],
                           "transform": {
                             "rx": 0,
-                            "ry": -0,
+                            "ry": 0,
                             "rz": 0,
                             "sx": 1,
                             "sy": 1,
@@ -976,7 +976,7 @@
                       "tags": [],
                       "transform": {
                         "rx": 0,
-                        "ry": -0,
+                        "ry": 0,
                         "rz": 0,
                         "sx": 1,
                         "sy": 1,
@@ -1089,7 +1089,7 @@
                       "tags": [],
                       "transform": {
                         "rx": 0,
-                        "ry": -0,
+                        "ry": 0,
                         "rz": 0,
                         "sx": 1,
                         "sy": 1,
@@ -1202,7 +1202,7 @@
                       "tags": [],
                       "transform": {
                         "rx": 0,
-                        "ry": -0,
+                        "ry": 0,
                         "rz": 0,
                         "sx": 1,
                         "sy": 1,
@@ -1315,7 +1315,7 @@
                       "tags": [],
                       "transform": {
                         "rx": 0,
-                        "ry": -0,
+                        "ry": 0,
                         "rz": 0,
                         "sx": 1,
                         "sy": 1,
@@ -1428,7 +1428,7 @@
                       "tags": [],
                       "transform": {
                         "rx": 0,
-                        "ry": -0,
+                        "ry": 0,
                         "rz": 0,
                         "sx": 1,
                         "sy": 1,
@@ -1445,7 +1445,7 @@
                           "multiplier": 1,
                           "unitBase": 10
                         },
-                        "value": 34.99998
+                        "value": 34.99998474121094
                       }
                     },
                     {
@@ -1541,7 +1541,7 @@
                       "tags": [],
                       "transform": {
                         "rx": 0,
-                        "ry": -0,
+                        "ry": 0,
                         "rz": 0,
                         "sx": 1,
                         "sy": 1,
@@ -1654,7 +1654,7 @@
                       "tags": [],
                       "transform": {
                         "rx": 0,
-                        "ry": -0,
+                        "ry": 0,
                         "rz": 0,
                         "sx": 1,
                         "sy": 1,
@@ -1709,7 +1709,7 @@
                   "children": [
                     {
                       "modelName": "2_d_text_model",
-                      "name": "instPlace",
+                      "name": "instPlacedd",
                       "identifier": "2_d_text_model:63043-8ceeb1ac-0bf8-49fd-a089-88ad6e866a13",
                       "animationMask": {
                         "position": false,
@@ -1942,6 +1942,82 @@
                         },
                         "value": 150
                       }
+                    },
+                    {
+                      "modelName": "plane",
+                      "name": "instPlace",
+                      "identifier": "plane:2447-299c73fa-96f3-408d-a7cf-627613cafa12",
+                      "animationMask": {
+                        "position": false,
+                        "rotation": false,
+                        "scale": false
+                      },
+                      "cameraVisibility": "back|front",
+                      "castShadow": false,
+                      "hidden": true,
+                      "horizontalAlignment": "center",
+                      "horizontalSpacing": 0,
+                      "isMaterialIdentifierEnabled": true,
+                      "layerIdentifier": "layer0",
+                      "materialIdentifier": "defaultMaterial:2455-299c73fa-96f3-408d-a7cf-627613cafa12",
+                      "outputVisibility": "preview|capture",
+                      "physicsEnabled": false,
+                      "receiveShadow": false,
+                      "renderPass": "main_scene",
+                      "tags": [],
+                      "textureHeight": 0.1,
+                      "textureWidth": 0.1,
+                      "transform": {
+                        "rx": 0,
+                        "ry": 0,
+                        "rz": 0,
+                        "sx": 3500,
+                        "sy": 3500,
+                        "sz": 1,
+                        "x": 0,
+                        "y": 100,
+                        "z": 0
+                      },
+                      "verticalAlignment": "center",
+                      "verticalSpacing": 0
+                    },
+                    {
+                      "modelName": "plane",
+                      "name": "instPlace2",
+                      "identifier": "plane:3559-299c73fa-96f3-408d-a7cf-627613cafa12",
+                      "animationMask": {
+                        "position": false,
+                        "rotation": false,
+                        "scale": false
+                      },
+                      "cameraVisibility": "back|front",
+                      "castShadow": false,
+                      "hidden": true,
+                      "horizontalAlignment": "center",
+                      "horizontalSpacing": 0,
+                      "isMaterialIdentifierEnabled": true,
+                      "layerIdentifier": "layer0",
+                      "materialIdentifier": "defaultMaterial:3567-299c73fa-96f3-408d-a7cf-627613cafa12",
+                      "outputVisibility": "preview|capture",
+                      "physicsEnabled": false,
+                      "receiveShadow": false,
+                      "renderPass": "main_scene",
+                      "tags": [],
+                      "textureHeight": 0.1,
+                      "textureWidth": 0.1,
+                      "transform": {
+                        "rx": 0,
+                        "ry": 0,
+                        "rz": 0,
+                        "sx": 3500,
+                        "sy": 3500,
+                        "sz": 1,
+                        "x": 0,
+                        "y": -100,
+                        "z": 0
+                      },
+                      "verticalAlignment": "center",
+                      "verticalSpacing": 0
                     }
                   ]
                 }

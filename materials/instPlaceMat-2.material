@@ -1,14 +1,14 @@
 {
   "modelName": "defaultMaterial",
-  "name": "instmat",
-  "identifier": "defaultMaterial:7485-b6e88a97-9206-4a4f-a3aa-34e029a0a68d",
+  "name": "instPlaceMat",
+  "identifier": "defaultMaterial:2455-299c73fa-96f3-408d-a7cf-627613cafa12",
   "alphaTestEnabled": false,
   "alphaTestThreshold": 0,
   "blendMode": "alpha",
   "colorEncoding": "linear",
   "cullMode": "back",
   "diffuseFactor": "0xffffffff",
-  "diffuseTextureName": "texture:12199-299c73fa-96f3-408d-a7cf-627613cafa12",
+  "diffuseTextureName": "texture:2445-299c73fa-96f3-408d-a7cf-627613cafa12",
   "diffuseTextureTransform": {
     "offsetU": 0,
     "offsetV": 0,
@@ -51,7 +51,7 @@
     "scaleU": 1,
     "scaleV": 1
   },
-  "readDepth": true,
+  "readDepth": false,
   "reflectiveTextureTransform": {
     "offsetU": 0,
     "offsetV": 0,

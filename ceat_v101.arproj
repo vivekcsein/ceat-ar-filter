@@ -75,31 +75,7 @@
           "sectionFileLocation": "objects/Ceat Tyre/Texture 1.texture"
         },
         {
-          "sectionFileLocation": "textures/VIEW IN AR BUTTON1.texture"
-        },
-        {
-          "sectionFileLocation": "textures/CLICK ICON BUTTON.texture"
-        },
-        {
           "sectionFileLocation": "textures/BG-min.texture"
-        },
-        {
-          "sectionFileLocation": "textures/icon6_selected-2.texture"
-        },
-        {
-          "sectionFileLocation": "textures/icon1_selected-2.texture"
-        },
-        {
-          "sectionFileLocation": "textures/icon2_selected-2.texture"
-        },
-        {
-          "sectionFileLocation": "textures/icon3_selected.texture"
-        },
-        {
-          "sectionFileLocation": "textures/icon4_selected.texture"
-        },
-        {
-          "sectionFileLocation": "textures/icon5_selected-2.texture"
         },
         {
           "sectionFileLocation": "textures/icon2_popup-2.texture"
@@ -118,6 +94,36 @@
         },
         {
           "sectionFileLocation": "textures/icon1_popup-2.texture"
+        },
+        {
+          "sectionFileLocation": "textures/icon6_selected.texture"
+        },
+        {
+          "sectionFileLocation": "textures/icon1_selected.texture"
+        },
+        {
+          "sectionFileLocation": "textures/icon2_selected.texture"
+        },
+        {
+          "sectionFileLocation": "textures/icon3_selected-2.texture"
+        },
+        {
+          "sectionFileLocation": "textures/icon4_selected-2.texture"
+        },
+        {
+          "sectionFileLocation": "textures/icon5_selected.texture"
+        },
+        {
+          "sectionFileLocation": "textures/view in ar button revised.texture"
+        },
+        {
+          "sectionFileLocation": "textures/instARview.texture"
+        },
+        {
+          "sectionFileLocation": "textures/tap to place box.texture"
+        },
+        {
+          "sectionFileLocation": "textures/exploreInst.texture"
         }
       ]
     },
@@ -152,7 +158,7 @@
           "modelName": "script",
           "name": "ceatTyre.js",
           "identifier": "script:11897-fa1a7106-297a-4faa-b5d0-ae536a4afad5",
-          "assetDataHash": "d2a3493cc64e4ab5fe5d479b558648f3",
+          "assetDataHash": "e6b7bdeb85efe5999f7b911d8282078c",
           "assetLocator": "scripts/ceatTyre.js",
           "isExternalAsset": true
         }
@@ -667,6 +673,12 @@
         },
         {
           "sectionFileLocation": "materials/instmat-2.material"
+        },
+        {
+          "sectionFileLocation": "materials/instPlaceMat-2.material"
+        },
+        {
+          "sectionFileLocation": "materials/instPlace2Mat.material"
         }
       ]
     },
